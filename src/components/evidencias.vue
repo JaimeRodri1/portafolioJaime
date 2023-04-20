@@ -14,7 +14,7 @@
         data() {
         return {
             images: [
-            { src: "\assets\lab.jpg"},
+            { src: "/assets/lab.jpg"},
             { src: "path/to/image2.jpg"},
             { src: "path/to/image3.jpg"},
             { src: "path/to/image4.jpg"},
