@@ -10,11 +10,14 @@
           class="img-fluid"
           alt=""
         />
-        <h3>Facultad de Ciencia y Tecnologia</h3>
-        <h5>Campus San Miguel</h5>
-        <br />
+        <div  class="cover-title">
+          <h3>Facultad de Ciencia y Tecnologia</h3>
+          <h5>Campus San Miguel</h5>
+          
+        </div>
+        
       </div>
-      <div class="section-title">
+      <div class="cover-description">
         <p>
           <em
             >Carrera: <br />
@@ -44,9 +47,29 @@
         </p>
         <br />
       </div>
+       
     </div>
   </section>
-  <br/>
 </template>
+
+<style>
+
+
+.cover-title {
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 40px;
+  color: black;
+}
+
+.cover-description {
+  font-size: 24px;
+  margin-bottom: 40px;
+  color: black;
+}
+
+</style>
+
+
 
 

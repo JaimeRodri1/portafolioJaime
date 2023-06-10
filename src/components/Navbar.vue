@@ -1,5 +1,5 @@
 <template>
-  <nav class="navbar navbar-expand-lg navbar-light bg-primary fixed-top">
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: #91349b;">
     <a class="navbar-brand" >Mi portafolio</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
       aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -26,14 +26,12 @@
           <router-link to="/Apuntes" class="nav-link">Apuntes</router-link>
         </li>
         <li class="nav-item">
-          <router-link to="/tareas" class="nav-link">Tareas ex-aula</router-link>
+          <router-link to="/tareas" class="nav-link">Practicas</router-link>
         </li>
         <li class="nav-item">
           <router-link to="/Evidencias" class="nav-link">Evidencias de evaluaciones</router-link>
         </li>
-        <li class="nav-item">
-          <router-link to="/Proyec" class="nav-link">Proyecto integrador</router-link>
-        </li>
+        
       </ul>
     </div>
   </nav>

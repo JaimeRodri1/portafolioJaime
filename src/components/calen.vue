@@ -1,12 +1,12 @@
+
 <template>
     <div class="container">
       <h2>Calendario</h2>
       <div class="row">
         <div class="col-md-4" v-for="(week, index) in calendar" :key="index">
-          <h4>Semana {{ index + 1 }}</h4>
           <ul class="list-group">
-            <li class="list-group-item" v-for="(day, i) in week" :key="i">
-              {{ day }}
+            <li class="list-group-item" v-for="(item, i) in week" :key="i">
+              {{ item }}
             </li>
           </ul>
         </div>
@@ -19,8 +19,11 @@
         data() {
         return {
             calendar: [
-            [ "Martes 8:50 am - 10:20 am" ],
-            [ "Martes 12:40 pm - 2:20 pm", ],
+            [ "Introducción JavaScript - 16 al 22 de enero" ],
+            [ "Bootstrap y VueJS  - 16 al 22 de enero", ],
+            [ "Rendering declarativo, Directivas personalizadas y Representación de lista - 16 al 22 de enero", ],
+            [ "Manejadores de eventos, Modificadores de eventos, Clases y estilos en tiempo real -  16 al 22 de enero", ],
+            [ " Sistema de Componentes, Introducción al sistema de Componentes, Crear Componentes Custom -  13 al 19 de febrero", ],
             ],
         };
         },
@@ -31,5 +34,4 @@
   ul {
     margin-bottom: 0;
   }
-  </style>
-  
+  </style>  
