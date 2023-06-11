@@ -10,7 +10,7 @@
             <a href="https://github.com/JaimeRodri1/PrograIV-computo2" target="_blank" rel="noopener noreferrer">Practicas computo 2</a>
           </li>
           <li class="list-group-item">
-            <a href="https://www.example3.com" target="_blank" rel="noopener noreferrer">Practicas computo 3</a>
+            <a href="https://github.com/JaimeRodri1/Programacion4-Computo3" target="_blank" rel="noopener noreferrer">Practicas computo 3</a>
           </li>
         </ul>
       </div>

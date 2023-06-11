@@ -29,9 +29,9 @@ export default {
         },
         {
           id: 2,
-          title: 'Apuntes 2',
+          title: 'Computo 2',
           description: 'Descripción de los apuntes 2',
-          fileUrl: 'ruta-al-archivo2.pdf'
+          fileUrl: 'src/assets/pdfs/Computo2.pdf'
         },
         {
           id: 3,
