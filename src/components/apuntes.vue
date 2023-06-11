@@ -24,20 +24,20 @@ export default {
         {
           id: 1,
           title: 'Computo 1',
-          description: 'informacion de el computo 1',
+          description: 'Aqui se incluye los temas importantes del computo',
           fileUrl: 'src/assets/pdfs/Computo1.pdf'
         },
         {
           id: 2,
           title: 'Computo 2',
-          description: 'Descripción de los apuntes 2',
+          description: 'Aqui se incluye los temas importantes del computo',
           fileUrl: 'src/assets/pdfs/Computo2.pdf'
         },
         {
           id: 3,
-          title: 'Apuntes 3',
-          description: 'Descripción de los apuntes 3',
-          fileUrl: 'ruta-al-archivo3.pdf'
+          title: 'Computo 3',
+          description: 'Aqui se incluye los temas importantes del computo',
+          fileUrl: 'src/assets/pdfs/Computo3.pdf'
         }
       ]
     };
